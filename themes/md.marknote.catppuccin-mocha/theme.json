@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.catppuccin-mocha",
+  "name": "Catppuccin Mocha",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "Catppuccin's darkest flavour: soothing pastels on a deep blue-grey base.",
+  "homepage": "https://catppuccin.com/",
+  "license": "MIT",
+  "appearance": "dark",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#181825",
+      "panel": "transparent",
+      "pane": "#1E1E2E",
+      "dialog": "#1E1E2E"
+    },
+    "accent": {
+      "color": "#CBA6F7",
+      "ink": "#1E1E2E"
+    },
+    "editor": {
+      "bg": "#1E1E2E",
+      "activeLine": "#313244",
+      "selection": "#45475A",
+      "gutter": "#6C7086",
+      "fg": "#CDD6F4",
+      "fgStrong": "#F5E0DC",
+      "comment": "#6C7086",
+      "string": "#A6E3A1",
+      "regexp": "#F5C2E7",
+      "number": "#FAB387",
+      "keyword": "#CBA6F7",
+      "operator": "#89DCEB",
+      "func": "#89B4FA",
+      "type": "#F9E2AF",
+      "heading": "#CBA6F7",
+      "link": "#89B4FA",
+      "brandCaret": false
+    },
+    "preview": {
+      "fg": "#CDD6F4",
+      "fgSecondary": "#BAC2DE",
+      "bg": "#1E1E2E",
+      "codeBg": "#181825",
+      "codeBorder": "#313244",
+      "quoteBorder": "#CBA6F7",
+      "quoteBg": "#181825",
+      "link": "#89B4FA",
+      "rule": "#313244",
+      "tocBg": "#313244",
+      "headerBg": "#181825",
+      "scrollThumb": "#4D7F7F7F",
+      "scrollThumbHover": "#807F7F7F"
+    }
+  }
+}

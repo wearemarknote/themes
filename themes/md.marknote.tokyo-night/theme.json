@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.tokyo-night",
+  "name": "Tokyo Night",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "The Tokyo Night palette: deep navy with a clear blue accent.",
+  "homepage": "https://github.com/enkia/tokyo-night-vscode-theme",
+  "license": "MIT",
+  "appearance": "dark",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#16161E",
+      "panel": "transparent",
+      "pane": "#1A1B26",
+      "dialog": "#1A1B26"
+    },
+    "accent": {
+      "color": "#7AA2F7",
+      "ink": "#1A1B26"
+    },
+    "editor": {
+      "bg": "#1A1B26",
+      "activeLine": "#292E42",
+      "selection": "#33467C",
+      "gutter": "#565F89",
+      "fg": "#C0CAF5",
+      "fgStrong": "#FFFFFF",
+      "comment": "#565F89",
+      "string": "#9ECE6A",
+      "regexp": "#B4F9F8",
+      "number": "#FF9E64",
+      "keyword": "#BB9AF7",
+      "operator": "#89DDFF",
+      "func": "#7AA2F7",
+      "type": "#2AC3DE",
+      "heading": "#7AA2F7",
+      "link": "#7AA2F7",
+      "brandCaret": false
+    },
+    "preview": {
+      "fg": "#C0CAF5",
+      "fgSecondary": "#A9B1D6",
+      "bg": "#1A1B26",
+      "codeBg": "#16161E",
+      "codeBorder": "#292E42",
+      "quoteBorder": "#7AA2F7",
+      "quoteBg": "#16161E",
+      "link": "#7AA2F7",
+      "rule": "#292E42",
+      "tocBg": "#292E42",
+      "headerBg": "#16161E",
+      "scrollThumb": "#4D7F7F7F",
+      "scrollThumbHover": "#807F7F7F"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+name: Lint themes
+
+# Validates every theme in the repo exactly as Marknote will. tools/lint is
+# a copy of the app's own theme model and lint, synced from the Marknote repo.
+
+on:
+  pull_request:
+    paths: ["themes/**", "tools/lint/**"]
+  push:
+    branches: [main]
+    paths: ["themes/**", "tools/lint/**"]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+      - name: Lint every theme
+        run: |
+          files=$(find themes -name theme.json | sort)
+          if [ -z "$files" ]; then echo "No themes to lint."; exit 0; fi
+          dotnet run --project tools/lint -- $files

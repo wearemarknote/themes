@@ -1,0 +1,15 @@
+D:\GitHub\Marknote-Themes\tools\lint\bin\Debug\net10.0\ThemeLint.exe
+D:\GitHub\Marknote-Themes\tools\lint\bin\Debug\net10.0\ThemeLint.deps.json
+D:\GitHub\Marknote-Themes\tools\lint\bin\Debug\net10.0\ThemeLint.runtimeconfig.json
+D:\GitHub\Marknote-Themes\tools\lint\bin\Debug\net10.0\ThemeLint.dll
+D:\GitHub\Marknote-Themes\tools\lint\bin\Debug\net10.0\ThemeLint.pdb
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\ThemeLint.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\ThemeLint.AssemblyInfoInputs.cache
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\ThemeLint.AssemblyInfo.cs
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\ThemeLint.csproj.CoreCompileInputs.cache
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\ThemeLint.sourcelink.json
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\ThemeLint.dll
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\refint\ThemeLint.dll
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\ThemeLint.pdb
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\ThemeLint.genruntimeconfig.cache
+D:\GitHub\Marknote-Themes\tools\lint\obj\Debug\net10.0\ref\ThemeLint.dll

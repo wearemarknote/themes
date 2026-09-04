@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.catppuccin-latte",
+  "name": "Catppuccin Latte",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "Catppuccin's light flavour: warm greys with the same pastel accents.",
+  "homepage": "https://catppuccin.com/",
+  "license": "MIT",
+  "appearance": "light",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#E6E9EF",
+      "panel": "transparent",
+      "pane": "#EFF1F5",
+      "dialog": "#EFF1F5"
+    },
+    "accent": {
+      "color": "#8839EF",
+      "ink": "#FFFFFF"
+    },
+    "editor": {
+      "bg": "#EFF1F5",
+      "activeLine": "#E6E9EF",
+      "selection": "#CCD0DA",
+      "gutter": "#8C8FA1",
+      "fg": "#4C4F69",
+      "fgStrong": "#1E1E2E",
+      "comment": "#8C8FA1",
+      "string": "#40A02B",
+      "regexp": "#EA76CB",
+      "number": "#FE640B",
+      "keyword": "#8839EF",
+      "operator": "#04A5E5",
+      "func": "#1E66F5",
+      "type": "#DF8E1D",
+      "heading": "#8839EF",
+      "link": "#1E66F5",
+      "brandCaret": false
+    },
+    "preview": {
+      "fg": "#4C4F69",
+      "fgSecondary": "#5C5F77",
+      "bg": "#EFF1F5",
+      "codeBg": "#E6E9EF",
+      "codeBorder": "#CCD0DA",
+      "quoteBorder": "#8839EF",
+      "quoteBg": "#E6E9EF",
+      "link": "#1E66F5",
+      "rule": "#CCD0DA",
+      "tocBg": "#FFFFFF",
+      "headerBg": "#E6E9EF",
+      "scrollThumb": "#4D7F7F7F",
+      "scrollThumbHover": "#807F7F7F"
+    }
+  }
+}
