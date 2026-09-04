@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.red-hat-dark",
+  "name": "Red Hat Dark",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "Red Hat's palette after dark: near-black ground, charcoal panes, Red Hat red, PatternFly's light blue for links.",
+  "homepage": "https://www.redhat.com/",
+  "license": "MIT",
+  "appearance": "dark",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#151515",
+      "panel": "transparent",
+      "pane": "#212427",
+      "dialog": "#212427"
+    },
+    "accent": {
+      "color": "#EE0000",
+      "ink": "#FFFFFF"
+    },
+    "editor": {
+      "bg": "#212427",
+      "activeLine": "#26292D",
+      "selection": "#3C3F42",
+      "gutter": "#8A8D90",
+      "fg": "#E0E0E0",
+      "fgStrong": "#FFFFFF",
+      "comment": "#8A8D90",
+      "string": "#95D58E",
+      "regexp": "#F0AB00",
+      "number": "#F0AB00",
+      "keyword": "#FF6B6B",
+      "operator": "#B8BBBE",
+      "func": "#73BCF7",
+      "type": "#A2D9D9",
+      "heading": "#FFFFFF",
+      "link": "#73BCF7",
+      "brandCaret": false
+    },
+    "preview": {
+      "fg": "#E0E0E0",
+      "fgSecondary": "#B8BBBE",
+      "bg": "#212427",
+      "codeBg": "#151515",
+      "codeBorder": "#3C3F42",
+      "quoteBorder": "#EE0000",
+      "quoteBg": "#151515",
+      "link": "#73BCF7",
+      "rule": "#3C3F42",
+      "tocBg": "#26292D",
+      "headerBg": "#151515",
+      "scrollThumb": "#1AFFFFFF",
+      "scrollThumbHover": "#33FFFFFF"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.red-hat-light",
+  "name": "Red Hat Light",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "Red Hat's palette in daylight: white pages, cool greys, Red Hat red, PatternFly's blue for links.",
+  "homepage": "https://www.redhat.com/",
+  "license": "MIT",
+  "appearance": "light",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#F0F0F0",
+      "panel": "transparent",
+      "pane": "#FFFFFF",
+      "dialog": "#FFFFFF"
+    },
+    "accent": {
+      "color": "#EE0000",
+      "ink": "#FFFFFF"
+    },
+    "editor": {
+      "bg": "#FFFFFF",
+      "activeLine": "#FAFAFA",
+      "selection": "#FAEAE8",
+      "gutter": "#6A6E73",
+      "fg": "#151515",
+      "fgStrong": "#000000",
+      "comment": "#6A6E73",
+      "string": "#3E8635",
+      "regexp": "#A30000",
+      "number": "#795600",
+      "keyword": "#A30000",
+      "operator": "#4D4D4D",
+      "func": "#0066CC",
+      "type": "#004080",
+      "heading": "#151515",
+      "link": "#0066CC",
+      "brandCaret": false
+    },
+    "preview": {
+      "fg": "#151515",
+      "fgSecondary": "#4D4D4D",
+      "bg": "#FFFFFF",
+      "codeBg": "#FAFAFA",
+      "codeBorder": "#D2D2D2",
+      "quoteBorder": "#EE0000",
+      "quoteBg": "#FAFAFA",
+      "link": "#0066CC",
+      "rule": "#D2D2D2",
+      "tocBg": "#FAFAFA",
+      "headerBg": "#F0F0F0",
+      "scrollThumb": "#1A000000",
+      "scrollThumbHover": "#33000000"
+    }
+  }
+}
