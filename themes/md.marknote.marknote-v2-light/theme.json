@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.marknote-v2-light",
+  "name": "Marknote v2 Light",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "marknote.md's own light palette: paper white surfaces, ink text, the brand red.",
+  "homepage": "https://marknote.md/",
+  "license": "MIT",
+  "appearance": "light",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#FAFAFB",
+      "panel": "transparent",
+      "pane": "#FFFFFF",
+      "dialog": "#FFFFFF"
+    },
+    "accent": {
+      "color": "#EE0000",
+      "ink": "#FFFFFF"
+    },
+    "editor": {
+      "bg": "#FFFFFF",
+      "activeLine": "#FAFAFB",
+      "selection": "#FDDCDC",
+      "gutter": "#6B7280",
+      "fg": "#18181B",
+      "fgStrong": "#000000",
+      "comment": "#6B7280",
+      "string": "#B45309",
+      "regexp": "#C2410C",
+      "number": "#C2410C",
+      "keyword": "#A21CAF",
+      "operator": "#52525B",
+      "func": "#1D4ED8",
+      "type": "#0E7490",
+      "heading": "#18181B",
+      "link": "#EE0000",
+      "brandCaret": true
+    },
+    "preview": {
+      "fg": "#18181B",
+      "fgSecondary": "#52525B",
+      "bg": "#FFFFFF",
+      "codeBg": "#FAFAFB",
+      "codeBorder": "#E5E7EB",
+      "quoteBorder": "#EE0000",
+      "quoteBg": "#FAFAFB",
+      "link": "#EE0000",
+      "rule": "#E5E7EB",
+      "tocBg": "#FAFAFB",
+      "headerBg": "#FAFAFB",
+      "scrollThumb": "#1A000000",
+      "scrollThumbHover": "#33000000"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.night-owl",
+  "name": "Night Owl",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "Sarah Drasner's Night Owl: deep navy for late hours, with luminous blues and peach.",
+  "homepage": "https://github.com/sdras/night-owl-vscode-theme",
+  "license": "MIT",
+  "appearance": "dark",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#01111D",
+      "panel": "transparent",
+      "pane": "#011627",
+      "dialog": "#011627"
+    },
+    "accent": {
+      "color": "#82AAFF",
+      "ink": "#011627"
+    },
+    "editor": {
+      "bg": "#011627",
+      "activeLine": "#0B2942",
+      "selection": "#1D3B53",
+      "gutter": "#4B6479",
+      "fg": "#D6DEEB",
+      "fgStrong": "#FFFFFF",
+      "comment": "#637777",
+      "string": "#ECC48D",
+      "regexp": "#5CA7E4",
+      "number": "#F78C6C",
+      "keyword": "#C792EA",
+      "operator": "#7FDBCA",
+      "func": "#82AAFF",
+      "type": "#FFCB8B",
+      "heading": "#82AAFF",
+      "link": "#82AAFF",
+      "brandCaret": false
+    },
+    "preview": {
+      "fg": "#D6DEEB",
+      "fgSecondary": "#A9B8CC",
+      "bg": "#011627",
+      "codeBg": "#01111D",
+      "codeBorder": "#1D3B53",
+      "quoteBorder": "#82AAFF",
+      "quoteBg": "#01111D",
+      "link": "#82AAFF",
+      "rule": "#1D3B53",
+      "tocBg": "#0B2942",
+      "headerBg": "#01111D",
+      "scrollThumb": "#4D7F7F7F",
+      "scrollThumbHover": "#807F7F7F"
+    }
+  }
+}

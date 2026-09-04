@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.one-dark",
+  "name": "One Dark",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "Atom's One Dark: cool grey surfaces with the familiar blue, purple and green.",
+  "homepage": "https://github.com/atom/atom/tree/master/packages/one-dark-syntax",
+  "license": "MIT",
+  "appearance": "dark",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#21252B",
+      "panel": "transparent",
+      "pane": "#282C34",
+      "dialog": "#282C34"
+    },
+    "accent": {
+      "color": "#61AFEF",
+      "ink": "#282C34"
+    },
+    "editor": {
+      "bg": "#282C34",
+      "activeLine": "#2C313C",
+      "selection": "#3E4451",
+      "gutter": "#636D83",
+      "fg": "#ABB2BF",
+      "fgStrong": "#FFFFFF",
+      "comment": "#5C6370",
+      "string": "#98C379",
+      "regexp": "#56B6C2",
+      "number": "#D19A66",
+      "keyword": "#C678DD",
+      "operator": "#56B6C2",
+      "func": "#61AFEF",
+      "type": "#E5C07B",
+      "heading": "#61AFEF",
+      "link": "#61AFEF",
+      "brandCaret": false
+    },
+    "preview": {
+      "fg": "#ABB2BF",
+      "fgSecondary": "#9DA5B4",
+      "bg": "#282C34",
+      "codeBg": "#21252B",
+      "codeBorder": "#3E4451",
+      "quoteBorder": "#61AFEF",
+      "quoteBg": "#21252B",
+      "link": "#61AFEF",
+      "rule": "#3E4451",
+      "tocBg": "#2C313C",
+      "headerBg": "#21252B",
+      "scrollThumb": "#4D7F7F7F",
+      "scrollThumbHover": "#807F7F7F"
+    }
+  }
+}

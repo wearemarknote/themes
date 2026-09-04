@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.github-light",
+  "name": "GitHub Light",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "GitHub's light palette from Primer: white pages, grey chrome, a clear blue accent.",
+  "homepage": "https://github.com/primer/github-vscode-theme",
+  "license": "MIT",
+  "appearance": "light",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#F6F8FA",
+      "panel": "transparent",
+      "pane": "#FFFFFF",
+      "dialog": "#FFFFFF"
+    },
+    "accent": {
+      "color": "#0969DA",
+      "ink": "#FFFFFF"
+    },
+    "editor": {
+      "bg": "#FFFFFF",
+      "activeLine": "#F6F8FA",
+      "selection": "#B6E3FF",
+      "gutter": "#8C959F",
+      "fg": "#1F2328",
+      "fgStrong": "#000000",
+      "comment": "#6E7781",
+      "string": "#0A3069",
+      "regexp": "#0A3069",
+      "number": "#0550AE",
+      "keyword": "#CF222E",
+      "operator": "#1F2328",
+      "func": "#8250DF",
+      "type": "#953800",
+      "heading": "#0969DA",
+      "link": "#0969DA",
+      "brandCaret": false
+    },
+    "preview": {
+      "fg": "#1F2328",
+      "fgSecondary": "#59636E",
+      "bg": "#FFFFFF",
+      "codeBg": "#F6F8FA",
+      "codeBorder": "#D1D9E0",
+      "quoteBorder": "#0969DA",
+      "quoteBg": "#F6F8FA",
+      "link": "#0969DA",
+      "rule": "#D1D9E0",
+      "tocBg": "#F6F8FA",
+      "headerBg": "#F6F8FA",
+      "scrollThumb": "#1A000000",
+      "scrollThumbHover": "#33000000"
+    }
+  }
+}

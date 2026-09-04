@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "md.marknote.rose-pine-dawn",
+  "name": "Rosé Pine Dawn",
+  "version": "1.0.0",
+  "author": "Marknote",
+  "description": "Rosé Pine's daylight variant: warm parchment with pine, rose and gold.",
+  "homepage": "https://rosepinetheme.com/",
+  "license": "MIT",
+  "appearance": "light",
+  "minMarknoteVersion": "1.8.3",
+  "material": "none",
+  "colors": {
+    "chrome": {
+      "window": "#F2E9E1",
+      "panel": "transparent",
+      "pane": "#FAF4ED",
+      "dialog": "#FAF4ED"
+    },
+    "accent": {
+      "color": "#286983",
+      "ink": "#FFFFFF"
+    },
+    "editor": {
+      "bg": "#FAF4ED",
+      "activeLine": "#F4EDE8",
+      "selection": "#DFDAD9",
+      "gutter": "#9893A5",
+      "fg": "#575279",
+      "fgStrong": "#26233A",
+      "comment": "#9893A5",
+      "string": "#EA9D34",
+      "regexp": "#D7827E",
+      "number": "#B4637A",
+      "keyword": "#286983",
+      "operator": "#797593",
+      "func": "#D7827E",
+      "type": "#56949F",
+      "heading": "#907AA9",
+      "link": "#286983",
+      "brandCaret": false
+    },
+    "preview": {
+      "fg": "#575279",
+      "fgSecondary": "#6E6A86",
+      "bg": "#FAF4ED",
+      "codeBg": "#FFFAF3",
+      "codeBorder": "#DFDAD9",
+      "quoteBorder": "#286983",
+      "quoteBg": "#F2E9E1",
+      "link": "#286983",
+      "rule": "#DFDAD9",
+      "tocBg": "#FFFAF3",
+      "headerBg": "#F2E9E1",
+      "scrollThumb": "#4D7F7F7F",
+      "scrollThumbHover": "#807F7F7F"
+    }
+  }
+}
