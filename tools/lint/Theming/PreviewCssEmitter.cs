@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Text.Json;
@@ -34,8 +35,21 @@ public static class PreviewCssEmitter
             sb.Append("  ").Append(ThemeSchema.PreviewVariableName(key))
               .Append(": ").Append(CssColor(theme.PreviewColors[key])).Append(";\n");
         }
+        foreach (var (name, value) in AccentVariables(theme))
+            sb.Append("  ").Append(name).Append(": ").Append(value).Append(";\n");
         sb.Append("}\n");
         return sb.ToString();
+    }
+
+    /// The accent pair, for the preview's own chrome — the table-of-contents
+    /// pill, the selection highlight — which should match the app's accent
+    /// rather than the theme's link colour (Catppuccin's links are blue, its
+    /// accent mauve).
+    public static IEnumerable<(string Name, string Value)> AccentVariables(ResolvedTheme theme)
+    {
+        yield return ("--accent", CssColor(theme.Accent));
+        yield return ("--accent-ink", CssColor(theme.Ink));
+        yield return ("--accent-selection", CssColor(ColorMath.WithAlpha(theme.Accent, theme.IsDark ? (byte)0x55 : (byte)0x4D)));
     }
 
     /// The theme's own CSS, re-checked at the moment of use: the file on
@@ -59,6 +73,8 @@ public static class PreviewCssEmitter
         var vars = new System.Collections.Generic.Dictionary<string, string>();
         foreach (string key in ThemeSchema.PreviewKeys)
             vars[ThemeSchema.PreviewVariableName(key)] = CssColor(theme.PreviewColors[key]);
+        foreach (var (name, value) in AccentVariables(theme))
+            vars[name] = value;
 
         TryEmitThemeCss(theme, out string css);
 

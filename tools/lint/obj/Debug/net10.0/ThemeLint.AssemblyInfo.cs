@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThemeLint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30d5261632bf22c9a9363efa148b45aec712787e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99480c6415f6c9c6e19eb560bb5fbc26f16a4e67")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThemeLint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThemeLint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
