@@ -1,0 +1,12 @@
+# Build output of tools/lint (dotnet run rebuilds it). These folders were
+# tracked by mistake at first, so every local build showed as a change.
+bin/
+obj/
+
+# Editor and OS noise
+.vs/
+.idea/
+*.user
+*.swp
+.DS_Store
+Thumbs.db
