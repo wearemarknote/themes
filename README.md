@@ -8,9 +8,11 @@ Themes merged here are listed on [marknote.md/themes](https://marknote.md/themes
 
 1. Fork this repo and add `themes/<your-id>/theme.json`. The id is reverse-DNS under a domain you own (`com.example.ember`); `uk.marknote.*` and `md.marknote.*` are Marknote's.
 2. Open a pull request. The template is the review checklist, and a workflow lints your file exactly as the app will.
+   - **A light and a dark version?** Add both in the same pull request, with ids that differ only by side (`com.example.ember-light`, `com.example.ember-dark`). They are listed as one pack: one card on the site and in the app's gallery, installed together, each side still usable on its own. A pack holds one light and one dark theme at most.
+   - **Credit.** Your theme is listed with its `author` and the GitHub account that opened the pull request. A theme that recreates someone else's design (Nord, Catppuccin, Dracula) is listed as based on that design, linked through `homepage`, and its page credits you for the port.
 3. A maintainer reads the file, checks the contrast table, and takes the listing screenshot from `samples/preview.md` so every theme is shot the same way.
 
-The format, the contrast bar and the CSS rules are documented at [marknote.md/themes/build](https://marknote.md/themes/build). To lint locally (tools/lint is a copy of the app's own validator):
+The format, the contrast bar and the CSS rules are documented at [marknote.md/developer/themes](https://marknote.md/developer/themes). To lint locally (tools/lint is a copy of the app's own validator):
 
 ```
 dotnet run --project tools/lint -- themes/<your-id>/theme.json
